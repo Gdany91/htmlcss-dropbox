@@ -33,7 +33,7 @@
     height: 50px;
 
     /* DEBUG */
-    background-color: rgb(17, 17, 19);
+    background-color: lightskyblue;
 }
 
 /* menu di destra */
@@ -42,7 +42,7 @@
     height: 50px;
 
     /* DEBUG */
-    background-color: rgb(17, 17, 19);
+    background-color:lightskyblue;
 }
 
 /* jumbotron */
@@ -108,7 +108,8 @@ h1{
 }
 
 h3{
-    padding-top: 100px;
+    padding-top: 65px;
+    font-size: 25px;
    
 }
 
@@ -174,4 +175,32 @@ i{
     width: 500px;
     height: 450px;
     margin: 0; 
+}
+
+
+/* funzioni dropbox */
+
+.operations{
+    width: 60%;
+    margin: 30px 20%;
+   
+
+    /* DEBUG */
+    background-color: lightgoldenrodyellow
+}
+
+.flex-conteiner{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.items{
+    width: 30%;
+    min-height: 200px;
+
+    /* DEBUG */
+    background-color: aqua;
+    border: 1px solid black;
+    
 }
