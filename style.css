@@ -198,9 +198,57 @@ i{
 .items{
     width: 30%;
     min-height: 200px;
+    margin-top: 20px;
 
     /* DEBUG */
     background-color: aqua;
     border: 1px solid black;
-    
+
+}
+
+
+/* clienti */
+
+ /* aziende */
+.company{
+    margin-top: 100px;
+    min-height: 500px; /* DEBUG */
+    display: flex;
+}
+
+.small{
+    width: 33%;
+    border: 1px solid black; /* DEBUG */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.square{
+    width: 50%;
+    height: 300px;
+    border: 1px solid black; /* DEBUG */
+
+}
+
+.big{
+    width: 33%;
+    border: 1px solid black;
+}
+
+/* sottoscrizione */
+.Subscribe{
+    height: 400px;
+    background-color: #b4d0e7;
+}
+
+/* faq */
+.faq{
+    height: 700px;
+
+}
+
+/* footer */
+footer{
+    height: 800px;
+    background-color: black;
 }
