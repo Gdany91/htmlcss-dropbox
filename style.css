@@ -11,6 +11,16 @@
     background-color: #0061ff;
     padding: 5px 8px;
     color: white;
+    width: 250px;
+    height: 35px;
+    text-align: center;
+    
+}
+
+.top1{
+    margin-right: 10px;
+    width: fit-content;
+    height: 30px;
 }
 
 
@@ -270,24 +280,66 @@ li{
     width: 60%;
     margin: 30px 20%;
     min-height: 250px;
+    border: 1px solid black;
 
-    /* DEBUG */
-    background-color: lightcoral;
 }
+
+.office-conteiner{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.office-conteiner2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0 30px 15px 0;
+}
+
+.nth3{
+    margin: 30px ;
+}
+
+.enterprise{
+    padding-top: 30px;
+    padding-bottom: 10px;
+
+}
+
+.office-h4{
+    margin-top: 50px;
+}
+
 
 .partner{
     width: 60%;
     margin: 30px 20%;
+    margin-top: 150px;
     display: flex;
     justify-content: space-between;
-    /* DEBUG */
-    background-color: lightcoral;
+    
 
 }
-.partner .img {
+.partner-img {
     width: 500px;
     height: 450px;
     margin: 0; 
+}
+
+.partner-txt {
+    width: 30%;
+    margin: 50px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.white-border{
+    background-color: white;
+    border: 1px solid black;
+    color: black;
 }
 
 
